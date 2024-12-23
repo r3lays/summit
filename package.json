@@ -1,0 +1,19 @@
+{
+  "name": "summit",
+  "type": "module",
+  "scripts": {
+    "dev": "",
+    "dev:site": "cd ./packages/site/; bun dev;",
+    "dev:extension": ""
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9"
+  }
+}
